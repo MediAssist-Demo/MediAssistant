@@ -12,15 +12,15 @@
 
 **Architecture Diagram:**
 
-![](RackMultipart20200731-4-e9gi4n_html_c8c542b87aed1df7.jpg)
+![Architecture](https://user-images.githubusercontent.com/68940916/89061011-9c047080-d381-11ea-9b74-b1f417893745.png)
 
 **Step 1:**
 
 - Navigate to theMediAssistantrepository(https://github.com/MediAssistDemo/MediAssistant.git) and download the ZIP folder. Extract the ZIP folder which will provide the files that we have used in this prototype.
 
-![](RackMultipart20200731-4-e9gi4n_html_698567d481f07809.png)
+![1](https://user-images.githubusercontent.com/68940916/89061094-ba6a6c00-d381-11ea-8c76-b5276bbdf32c.png)
 
-![](RackMultipart20200731-4-e9gi4n_html_c4f20a01d731e7c0.png)
+![2](https://user-images.githubusercontent.com/68940916/89061140-d40bb380-d381-11ea-9372-8fe68c970a45.png)
 
 **Step 2:**
 
@@ -31,15 +31,15 @@
 
 _Creating Cloudant service_
 
-![](RackMultipart20200731-4-e9gi4n_html_6124cfd4879c44aa.png)
+![3](https://user-images.githubusercontent.com/68940916/89061178-e685ed00-d381-11ea-8615-4ce2b5294bbc.png)
 
 _Creating a database in IBM Cloudant_
 
-![](RackMultipart20200731-4-e9gi4n_html_11cc234dae1921a1.png)
+![4](https://user-images.githubusercontent.com/68940916/89061215-f56c9f80-d381-11ea-9ed6-f3f3a62aa890.png)
 
 _Generating service credentials_
 
-![](RackMultipart20200731-4-e9gi4n_html_e47ee21efed47bfb.png)
+![5](https://user-images.githubusercontent.com/68940916/89061225-fb628080-d381-11ea-9a13-e38cea87ddaf.png)
 
 **Step 3:**
 
@@ -50,11 +50,11 @@ _Generating service credentials_
 
 _Creating action in IBM Cloud Function_
 
-![](RackMultipart20200731-4-e9gi4n_html_66a87bdeb41b97a8.png)
+![6](https://user-images.githubusercontent.com/68940916/89061241-00273480-d382-11ea-9b5c-97c1766196db.png)
 
 _Enter the cloudant URL in line no 19 and database name in line no 20 as shown below,_
 
-![](RackMultipart20200731-4-e9gi4n_html_935d21ea17f06425.png)
+![7](https://user-images.githubusercontent.com/68940916/89061250-04535200-d382-11ea-88f6-53e5b83fb01e.png)
 
 _Enable as WebAction and copy the HTTP Url as shown below,_ ![](RackMultipart20200731-4-e9gi4n_html_3fb7a029d96aed28.png)
 
@@ -64,15 +64,18 @@ _Enable as WebAction and copy the HTTP Url as shown below,_ ![](RackMultipart202
 - Navigate to the options=\&gt;Webhooks in Watson Assistant and paste the Http URL which has been retrieved from Step 3 as our webhook and add .json extension to our webhook as the return type is JSON
 - Now test the Watson Assistant in the try out pane.
 
-![](RackMultipart20200731-4-e9gi4n_html_90ee3d3c6a3865d5.png)
+![8](https://user-images.githubusercontent.com/68940916/89061255-07e6d900-d382-11ea-8051-dcb7d78a3476.png)
 
 _Importing Skill-My-first-skill file,_
 
-![](RackMultipart20200731-4-e9gi4n_html_f7ffb89e1d592e35.png)
+![9](https://user-images.githubusercontent.com/68940916/89061261-0ae1c980-d382-11ea-8a53-a6c973e76eec.png)
+
+
+![10](https://user-images.githubusercontent.com/68940916/89061270-0e755080-d382-11ea-9187-9242ffac034b.png)
 
 _Add the URL from the above step as Webhook with the extension.json,_
 
-![](RackMultipart20200731-4-e9gi4n_html_80661954f631a256.png)
+![11](https://user-images.githubusercontent.com/68940916/89061274-10d7aa80-d382-11ea-8777-c6750e9923f5.png)
 
 **Step 5:**
 
