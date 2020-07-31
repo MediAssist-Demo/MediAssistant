@@ -1,0 +1,1778 @@
+{
+  "intents": [
+    {
+      "intent": "Make_Covid_Test_Booking",
+      "examples": [
+        {
+          "text": "book an appointment"
+        },
+        {
+          "text": "yes i want to book an appointment"
+        },
+        {
+          "text": "make an appointment"
+        },
+        {
+          "text": "to make on appointment"
+        },
+        {
+          "text": "Schedule an appointment"
+        },
+        {
+          "text": "Make appointment"
+        },
+        {
+          "text": "i want to book an appointment"
+        },
+        {
+          "text": "reserve an appointment"
+        },
+        {
+          "text": "I want to take corona test"
+        },
+        {
+          "text": "I wish to take corona test"
+        },
+        {
+          "text": "I would like to take corona test"
+        },
+        {
+          "text": "I want to book a test"
+        },
+        {
+          "text": "I want to take Covid test"
+        },
+        {
+          "text": "I wish to take Covid test"
+        }
+      ],
+      "description": "To register for Covid Test"
+    },
+    {
+      "intent": "NameIntent",
+      "examples": [
+        {
+          "text": "my name is rama",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is deevi venkat",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is deevi venkat harish",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Mohana Priya",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Bhuvanesh Harikrishnan",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is John Cena",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is roobesh kumar",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Sachin Tendulkar",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "They call me bhuvanesh",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                13,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Name : Bhuvanesh",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                7,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Name is Bhuvanesh",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                8,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Name - Bhuvanesh",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                7,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Bhuvanesh",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is dan",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                14
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is buvan",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Rajiv Gandhi",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is arvind.M",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Zaheer Khan",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Sanjay Bangar",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "my name is Rahul Dravid",
+          "mentions": [
+            {
+              "entity": "Name",
+              "location": [
+                11,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Name"
+    },
+    {
+      "intent": "Emailid",
+      "examples": [
+        {
+          "text": "Email-Rahul.Dravid@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                6,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email-Sachin.Tendulkar@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                6,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email-christiano.ronaldo@fifa.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                6,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email-gandhi.india@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                6,
+                28
+              ]
+            }
+          ]
+        },
+        {
+          "text": "rajkcm@gmail.com"
+        },
+        {
+          "text": "EmailId-dhurai.thangam@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                8,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EmailId-andrew.flintoff@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                8,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EmailId-x.liverpool@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                8,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email-sivaji.ganesan@gmail.com"
+        },
+        {
+          "text": "Email-sahid.afridi@pak.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                6,
+                26
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EmailId-m.muralidharan@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                8,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EmaiId-hrbb1996@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                7,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "EmailId-bhuvanesh.harikrishnan@cognizant.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                8,
+                44
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Email-rytshot@gmail.com",
+          "mentions": [
+            {
+              "entity": "Email",
+              "location": [
+                6,
+                23
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CityIntent",
+      "examples": [
+        {
+          "text": "I live in Islamabad",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Chennai",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Bueno Aires",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Chennai city",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Bueno Aires city",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                21
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Chennai,TamilNadu",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Tamilnadu,Chennai",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Bueno Aires,Argentina",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                31
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Sauo Palo,Madhya Pradesh",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                34
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Madipakkam",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Nungambakkam",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                22
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in USA",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I live in Oman",
+          "mentions": [
+            {
+              "entity": "City",
+              "location": [
+                10,
+                14
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "MobileIntent",
+      "examples": [
+        {
+          "text": "MobileNumber:1234567891",
+          "mentions": [
+            {
+              "entity": "Mobile",
+              "location": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My mobile number is 9444672967",
+          "mentions": [
+            {
+              "entity": "Mobile",
+              "location": [
+                20,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My number is 1234567891",
+          "mentions": [
+            {
+              "entity": "Mobile",
+              "location": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PhoneNumber is 1234567891",
+          "mentions": [
+            {
+              "entity": "Mobile",
+              "location": [
+                15,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "PhoneNumber: 1234567891",
+          "mentions": [
+            {
+              "entity": "Mobile",
+              "location": [
+                13,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone:1234567891",
+          "mentions": [
+            {
+              "entity": "Mobile",
+              "location": [
+                6,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Phone -1234567891",
+          "mentions": [
+            {
+              "entity": "Mobile",
+              "location": [
+                7,
+                17
+              ]
+            }
+          ]
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PinCode",
+      "examples": [
+        {
+          "text": "PinCode-600088"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "CancelBookedAppointment",
+      "examples": [
+        {
+          "text": "cancel appointment"
+        },
+        {
+          "text": "cancel an appointment"
+        },
+        {
+          "text": "to cancel an appointment"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Email",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sachin.Tendulkar@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "x.liverpool@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rahul.Dravid@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rytshot@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sahid.afridi@pak.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Support@mediassist.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "andrew.flintoff@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "christiano.ronaldo@fifa.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gandhi.india@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "m.muralidharan@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "patterns",
+          "value": "mail",
+          "patterns": [
+            "\\b[A-Za-z0-9._%+-]+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2,}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ConfirmationCancel",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cancel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CancelBooking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Mobile",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "mobile_number",
+          "patterns": [
+            "^[0-9]{10}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "City",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Madipakkam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Tamilnadu,Chennai",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Nungambakkam",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Islamabad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sauo Palo,Madhya Pradesh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chennai,TamilNadu",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bueno Aires,Argentina",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Oman",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "USA",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Pincode",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "pin_number",
+          "patterns": [
+            "^[0-9]{10}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Confirmation",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "OK",
+          "synonyms": [
+            "Confirmed",
+            "Ok"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sanjay Bangar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rahul Dravid",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rama",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "deevi venkat",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "deevi venkat harish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mohana Priya",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bhuvanesh Harikrishnan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "John Cena",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Zaheer Khan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sachin Tendulkar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rajiv Gandhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "roobesh kumar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shatik kutty",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "arvind.M",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "varun",
+          "synonyms": []
+        },
+        {
+          "type": "patterns",
+          "value": "crctName",
+          "patterns": [
+            "(^[a-zA-Z\\\\s]*$)",
+            "^[a-zA-Z\\\\s]*$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please provide your 10 digit mobile number to proceed further"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1594480776337",
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1594757191533",
+      "previous_sibling": "handler_10_1594480776344"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Name Please provide your E-Mail Address to proceed further"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1594480776337",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1594757466794",
+      "previous_sibling": "handler_8_1594757191533"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Name Please provide your 10 digit mobile number"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1594480776337",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1594480776344",
+      "previous_sibling": "handler_2_1594480776344"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1594480776337",
+      "context": {
+        "mobilenumber": "@Pincode.literal"
+      },
+      "conditions": "@Pincode.literal",
+      "event_name": "input",
+      "dialog_node": "handler_2_1594480776344"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Name Please provide your appointment date to proceed further"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1593978398014",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1593978398016",
+      "previous_sibling": "handler_9_1593978398016"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Name in which city do you live in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1593978398014",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1594758536127",
+      "previous_sibling": "handler_5_1593978398016"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your date of appointment"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1593978398014",
+      "event_name": "nomatch",
+      "dialog_node": "handler_7_1594758546284",
+      "previous_sibling": "handler_10_1594758536127"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1593978398014",
+      "context": {
+        "bookdate": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_9_1593978398016"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1593960188876",
+      "variable": "$Name",
+      "dialog_node": "slot_3_1593960292447",
+      "previous_sibling": "handler_2_1593960291368"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1593960188876",
+      "variable": "$bookdate",
+      "dialog_node": "slot_10_1593978398014",
+      "previous_sibling": "slot_3_1593960292447"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1593960188876",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1593960291368"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1594057768635",
+      "variable": "$City",
+      "dialog_node": "slot_7_1594057944635",
+      "previous_sibling": "handler_2_1594057943341"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1594057768635",
+      "variable": "$mobilenumber",
+      "dialog_node": "slot_8_1594480776337",
+      "previous_sibling": "slot_7_1594057944635"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_6_1594057768635",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_2_1594057943341"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel Appointment Confirmation",
+      "parent": "node_8_1594649007219",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "BookingNumber": "$BookingNumber"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@Confirmation",
+      "dialog_node": "node_10_1594652548401",
+      "previous_sibling": "node_8_1594652528576"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1594649007219",
+      "variable": "$BookingNumber",
+      "dialog_node": "slot_10_1594649028538",
+      "previous_sibling": "node_10_1594652548401"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel Appointment Rejection",
+      "parent": "node_8_1594649007219",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@ConfirmationCancel",
+      "dialog_node": "node_8_1594652528576"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1593956263630",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1593957583979"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Connection cannot be established"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1594486406506",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1594486955178",
+      "previous_sibling": "response_10_1594486953603"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "$Name Your Appointment number $webhook_result_1.id on $bookdate is confirmed."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1594486406506",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_10_1594486953603",
+      "previous_sibling": "node_4_1594643366030"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmation Cancel",
+      "parent": "node_7_1594486406506",
+      "dialog_node": "node_4_1594643366030"
+    },
+    {
+      "type": "frame",
+      "title": "Bookin Number entry",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you sure want to cancel your appointment?",
+            "options": [
+              {
+                "label": "OK",
+                "value": {
+                  "input": {
+                    "text": "OK"
+                  }
+                }
+              },
+              {
+                "label": "Cancel",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1594648438660",
+      "conditions": "@sys-number",
+      "dialog_node": "node_8_1594649007219"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Name in which city do you live in?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1594057944635",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1594057944646",
+      "previous_sibling": "handler_4_1594057944646"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "$Name from which city do you come from?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1594057944635",
+      "event_name": "nomatch",
+      "dialog_node": "handler_4_1595350999572",
+      "previous_sibling": "handler_8_1594057944646"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1594057944635",
+      "context": {
+        "City": "@City"
+      },
+      "conditions": "@City",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594057944646"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter a valid appointment number"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1594652548401",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1594648438660"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1594718078838",
+      "previous_sibling": "response_3_1594718075621"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$Name Your Appointment has been Cancelled"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1594652548401",
+      "conditions": "$webhook_result_2.ok==true",
+      "dialog_node": "response_3_1594718075621"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please provide your name to proceed further."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1593960292447",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1593960292458",
+      "previous_sibling": "handler_2_1593960292458"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1593960292447",
+      "context": {
+        "Name": "@Name"
+      },
+      "conditions": "@Name",
+      "event_name": "input",
+      "dialog_node": "handler_2_1593960292458"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your booking number"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_10_1594649028538",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594649028620",
+      "previous_sibling": "handler_6_1594649028620"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1594649028538",
+      "context": {
+        "BookingNumber": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_6_1594649028620"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "$Name Do you want to submit",
+            "options": [
+              {
+                "label": "OK",
+                "value": {
+                  "input": {
+                    "text": "OK"
+                  }
+                }
+              },
+              {
+                "label": "Cancel",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1594321191778",
+      "dialog_node": "response_5_1594484330773",
+      "previous_sibling": "node_4_1594643515987"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "OK",
+            "options": [
+              {
+                "label": "Cancel",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1594321191778",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_1_1594321234584",
+      "previous_sibling": "response_5_1594484330773"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1594321191778",
+      "variable": "$Email",
+      "dialog_node": "slot_9_1594321235739",
+      "previous_sibling": "handler_1_1594321234584"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmation Cancel",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1594321191778",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@ConfirmationCancel",
+      "dialog_node": "node_4_1594643515987",
+      "previous_sibling": "node_7_1594486406506"
+    },
+    {
+      "type": "standard",
+      "title": "ConfirmationOk",
+      "parent": "node_7_1594321191778",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "City": "$City",
+            "Name": "$Name",
+            "Email": "$Email",
+            "bookdate": "$bookdate",
+            "MobileNumber": "$mobilenumber"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@Confirmation",
+      "dialog_node": "node_7_1594486406506"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please provide your E-Mail address to proceed further"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1594321235739",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1594321235762",
+      "previous_sibling": "handler_4_1594321235762"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1594321235739",
+      "context": {
+        "Email": "@Email.literal"
+      },
+      "conditions": "@Email.literal",
+      "event_name": "input",
+      "dialog_node": "handler_4_1594321235762"
+    },
+    {
+      "type": "frame",
+      "title": "City Intent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#CityIntent",
+      "dialog_node": "node_6_1594057768635",
+      "previous_sibling": "node_7_1593960188876"
+    },
+    {
+      "type": "frame",
+      "metadata": {
+        "callout": {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "": ""
+          },
+          "result_variable": "webhook_result_1"
+        },
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Email",
+      "dialog_node": "node_7_1594321191778",
+      "previous_sibling": "node_6_1594057768635"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel Booked Appointment",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure Please enter your booking number to Cancel your appointment"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#CancelBookedAppointment",
+      "dialog_node": "node_3_1594648438660",
+      "previous_sibling": "node_4_1593956263630"
+    },
+    {
+      "type": "frame",
+      "title": "Name Intent",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#NameIntent",
+      "dialog_node": "node_7_1593960188876",
+      "previous_sibling": "node_3_1594648438660"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure.May I know your name please?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Make_Covid_Test_Booking",
+      "dialog_node": "node_4_1593956263630",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1594321191778",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Iam the MediAssistant. Following are the services that I offer.Do you want to book an appointment (or) Cancel an appointment?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "deleted_variable": "<? context.remove('Name') ?>",
+        "deleted_variable1": "<? context.remove('City') ?>",
+        "deleted_variable2": "<? context.remove('Email') ?>",
+        "deleted_variable3": "<? context.remove('bookdate') ?>",
+        "deleted_variable4": "<? context.remove('mobilenumber') ?>",
+        "deleted_variable5": "<? context.remove('BookingNumber') ?>"
+      },
+      "context": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
